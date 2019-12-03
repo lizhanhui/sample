@@ -1,6 +1,7 @@
 #!/bin/bash
 work_dir=$(dirname "$0")
 echo "Current working directory: $work_dir"
+echo "Installation directory: $1"
 cd $work_dir
 work_dir=$(pwd)
 if [[ -d _build ]]; then
