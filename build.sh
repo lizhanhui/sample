@@ -9,7 +9,7 @@ fi
 mkdir _build
 cd _build
 echo `pwd`
-cmake -DCMAKE_INSTALL_PREFIX:PATH=$work_dir ..
+cmake -DCMAKE_INSTALL_PREFIX:PATH=$1 ..
 make
 make install
 
